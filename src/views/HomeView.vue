@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home main-container black">
     <p>Hao</p>
   </div>
 </template>
