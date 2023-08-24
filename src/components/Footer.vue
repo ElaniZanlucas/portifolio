@@ -15,10 +15,11 @@ export default {
 <style scoped>
   footer {
     background-color: var(--light-black);
-    padding: 30px 120px;
+    padding: 28px 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    bottom: 0;
   }
 
   #logo {

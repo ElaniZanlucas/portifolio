@@ -4,7 +4,7 @@
       <p id="logo">&lt; E.M.Z &gt;</p>
     </router-link>
     <router-link to="/">Início</router-link> 
-    <router-link to="/about">Sobre Mim</router-link> 
+    <router-link to="/about-me">Sobre Mim</router-link> 
     <router-link to="/habilidades">Habilidades</router-link> 
     <router-link to="/projetos">Projetos</router-link> 
     <router-link to="/certificados">Certificados</router-link> 
@@ -25,6 +25,8 @@ export default {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: fixed;
+    width: 100%;
   }
 
   #logo-url {

@@ -1,17 +1,37 @@
 <template>
-  <Navbar />
-  <router-view/>
-  <Footer />
+  <v-app>
+    <Navbar />
+    <router-view class="pages"/>
+    <!-- <HomeView/>
+    <AboutView/>    
+    <HabilidadesView/>
+    <ProjetosView/>
+    <CertificadosView/>
+    <ContatoView/> -->
+    <Footer />
+  </v-app>
 </template>
 
 <script>
 import Navbar from '@/components/Navbar.vue'
 import Footer from '@/components/Footer.vue'
+import HomeView from './views/HomeView.vue'
+import AboutView from './views/AboutView.vue'
+import HabilidadesView from './views/HabilidadesView.vue'
+import ProjetosView from './views/ProjetosView.vue'
+import CertificadosView from './views/CertificadosView.vue'
+import ContatoView from './views/ContatoView.vue'
 
 export default {
   components: {
     Navbar,
-    Footer
+    Footer, 
+    HomeView,
+    AboutView,
+    HabilidadesView,
+    ProjetosView,
+    CertificadosView,
+    ContatoView,
   }
 }
 </script>
@@ -37,13 +57,13 @@ export default {
   }
 
   .main-container {
-    min-height: 488px;
+    min-height: 640px;
+    padding: 48px;    
   }
 
   h1 {
     text-align: center;
-    font-size: 42px;
-    padding: 30px 0;
+    font-size: 40px;
   }
 
   .black {
@@ -52,5 +72,9 @@ export default {
 
   .deep-black {
     background-color: var(--deep-black);
+  }
+
+  .pages {
+  padding-top: 6.4em;
   }
 </style>
