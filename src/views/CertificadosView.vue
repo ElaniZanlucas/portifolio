@@ -2,12 +2,12 @@
   <div class="about main-container black">
     <Banner :section="bannerSection"/>
     <div class="cards">
-      <div class="card">
-        <h2 class="titulo">Título</h2>
-        <p class="carga">Carga: <span>80h</span></p>
-        <p class="emissor">Emissor: <span>DIO</span></p>
-        <p class="certificado">Certificado: <a href="">Clique aqui</a></p>
-        <p class="habilidades">Habilidades: <span>Sim</span></p>
+      <div class="card" v-for="certificado in certificados" :key="certificado.id">
+        <h2 class="titulo">{{certificado.nome}}</h2>
+        <p class="carga">Carga:&ensp;<span>{{certificado.carga}}</span></p>
+        <p class="emissor">Emissor:&ensp;<span>{{certificado.emissor}}</span></p>
+        <p class="certificado">Certificado:&ensp;<a :href="certificado.link" target="_blank">Clique aqui</a></p>
+        <p class="habilidades">Habilidades:<span>{{certificado.habilidades}}</span></p>
       </div>
     </div>
   </div>
@@ -23,8 +23,22 @@ export default {
   },
   data() {
     return {
-      bannerSection: 'Certificados'
+      bannerSection: 'Certificados',
+      certificados_id: null,
+      certificados: null
     }
+  },
+  methods: {
+    async getCertificados() {
+      const req = await fetch("http://localhost:3000/certificados");
+      const data = await req.json(); 
+
+      this.certificados = data;
+      console.log(data);
+    }
+  },
+  mounted() {
+    this.getCertificados();
   }
 }
 </script>

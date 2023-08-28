@@ -5,8 +5,8 @@
     <!-- <HomeView/>
     <AboutView/>    
     <HabilidadesView/>
-    <ProjetosView/>
     <CertificadosView/>
+    <ProjetosView/>
     <ContatoView/> -->
     <Footer />
   </v-app>

@@ -29,42 +29,34 @@
     {
       "id": 1,
       "nome": "Trilha Fundamentar - Discover",
-      "ch": "28h",
+      "carga": "28h",
       "emissor": "Rocketseat",
-      "certificado": "https://drive.google.com/file/d/1NXT_4GMCJksltNufaEJd-0z8wEEieC9n/view?usp=sharing",
+      "link": "https://drive.google.com/file/d/1NXT_4GMCJksltNufaEJd-0z8wEEieC9n/view?usp=sharing",
       "habilidades": ["HTML", "CSS", "Js", "NodeJs", "SQL"]
     },
     {
       "id": 2,
       "nome": "Trilha Especializar - Discover",
-      "ch": "11h",
+      "carga": "11h",
       "emissor": "Rocketseat",
-      "certificado": "https://drive.google.com/file/d/1tjAKpyBDVuY-sXd61LZkYIp-fK4jKo8z/view?usp=sharing",
+      "link": "https://drive.google.com/file/d/1tjAKpyBDVuY-sXd61LZkYIp-fK4jKo8z/view?usp=sharing",
       "habilidades": ["HTML", "CSS", "APIs", "ReactJs", "Typescript", "Github"]
     },
     {
       "id": 3,
       "nome": "Power BI Aplicado a Negócios",
-      "ch": "24h",
+      "carga": "24h",
       "emissor": "Grupo Voitto",
-      "certificado": "https://drive.google.com/file/d/1ZR3yvpggw7a8KVlAUVj1jvFPSrgADJ9F/view?usp=sharing",
+      "link": "https://drive.google.com/file/d/1ZR3yvpggw7a8KVlAUVj1jvFPSrgADJ9F/view?usp=sharing",
       "habilidades": ["Power BI", "Power Query", "DAX", "Dashboard"]
     },
     {
       "id": 4,
       "nome": "Fundamentos de Excel",
-      "ch": "3h",
+      "carga": "3h",
       "emissor": "Grupo Voitto",
-      "certificado": "https://drive.google.com/file/d/1HoMtCTfMtpCUC2bhbPXoe13ohVEB1G3z/view?usp=sharing",
+      "link": "https://drive.google.com/file/d/1HoMtCTfMtpCUC2bhbPXoe13ohVEB1G3z/view?usp=sharing",
       "habilidades": ["Excel", "Tabelas Dinâmicas", "Gráficos"]
-    },
-    {
-      "id": 5,
-      "nome": "",
-      "ch": "20h",
-      "emissor": "DIO",
-      "certificado": "link",
-      "habilidades": []
     }
   ]
 }
