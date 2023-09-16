@@ -59,7 +59,6 @@ export default {
     width: 56px;
     height: 56px;
     background-color: var(--light-black);
-    margin: 50px;
     border-radius: 8px;
     margin: 0;
   }
@@ -68,7 +67,6 @@ export default {
     width: 56px;
     height: 56px;
     background-color: var(--light-black);
-    margin: 50px;
     border-radius: 8px;
     margin: 0 24px;
   }
